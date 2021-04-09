@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
@@ -43,10 +44,9 @@ public class StreamPractice {
                   .collect(Collectors
                                .toMap(p -> p[0], p -> p[1], (s, a) -> s + ", " + a));
 
-    // Print the Map
-    // Print the Map for test
+   
     System.out.println("Map: in edited file" + map);
-    //System.out.println("line48");
+   
 		
 	}
 
