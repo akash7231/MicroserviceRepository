@@ -44,7 +44,7 @@ public class StreamPractice {
                                .toMap(p -> p[0], p -> p[1], (s, a) -> s + ", " + a));
 
     // Print the Map
-    System.out.println("Map:" + map);
+    System.out.println("Map: in edited file" + map);
 		
 	}
 
