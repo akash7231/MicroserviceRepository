@@ -45,6 +45,7 @@ public class StreamPractice {
 
     // Print the Map
     System.out.println("Map: in edited file" + map);
+    //System.out.println("line48");
 		
 	}
 
