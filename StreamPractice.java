@@ -43,9 +43,9 @@ public class StreamPractice {
                   .collect(Collectors
                                .toMap(p -> p[0], p -> p[1], (s, a) -> s + ", " + a));
 
-    // Print the Map
-    // Print the Map for test
-    System.out.println("Map: in edited file" + map);
+    
+    
+    List<String> list2=new ArrayList<>();
 		
 	}
 
