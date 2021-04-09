@@ -45,7 +45,7 @@ public class StreamPractice {
                                .toMap(p -> p[0], p -> p[1], (s, a) -> s + ", " + a));
     
     
-   String str="abc";
+  System.out.println("sfhsf");
 
 		
 	}
