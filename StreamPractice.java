@@ -43,10 +43,10 @@ public class StreamPractice {
         map = str
                   .collect(Collectors
                                .toMap(p -> p[0], p -> p[1], (s, a) -> s + ", " + a));
+    
+    
+   System.out.println("git test");
 
-   
-    System.out.println("Map: in edited file" + map);
-   
 		
 	}
 
